@@ -95,6 +95,13 @@ describe("Included matchers:", function() {
     expect(a).not.toContain("quux");
   });
 
+  it("The 'toContain' matcher works with Strings", function() {
+    var a = "foo-bar-baz";
+
+    expect(a).toContain("bar");
+    expect(a).not.toContain("quux");
+  });
+
   it("The 'toBeLessThan' matcher is for mathematical comparisons", function() {
     var pi = 3.1415926,
       e = 2.78;
@@ -124,6 +131,7 @@ describe("Included matchers:", function() {
       return 1 + 2;
     };
     var bar = function() {
+      // a is implied global, and not defined-- and so it throws.
       return a + 1;
     };
 
