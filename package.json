@@ -13,8 +13,8 @@
     "karma-safari-launcher": "^0.1.1"
   },
   "scripts": {
-    "start": "./node_modules/.bin/karma start",
-    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
+    "start": "./node_modules/karma/bin/karma start",
+    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS"
   },
   "repository": {
     "type": "git",
