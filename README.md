@@ -1,4 +1,4 @@
-# JavaScript Notes+Specs
+# Overview
 
 I read some books:
 
@@ -16,12 +16,12 @@ And looked through some websites:
 
 And I took these notes.
 
-## Notes?
+## Notes
 
 Are written in javascript and markdown, and live in reasonably named
 directories.
 
-## Specs?
+## Specs
 
 Let me interact with examples, and verify that they work as I'd
 expect.
@@ -40,7 +40,7 @@ If I want to see that things work, generally:
 npm test
 ```
 
-### Continuously Run
+### Continuous Run
 
 If I want to see that things work in several browsers, or I am
 actively taking notes and writing specs and want to see that things
