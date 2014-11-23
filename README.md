@@ -2,12 +2,17 @@
 
 I read some books:
 
-* The Good Parts
-* Functional JavaScript
+* [The Good Parts][good-parts]
+* [Functional JavaScript][fun-js]
+
+[good-parts]: http://shop.oreilly.com/product/9780596517748.do
+[fun-js]: http://shop.oreilly.com/product/0636920028857.do
 
 And looked through some websites:
 
-* Jasmine Introduction
+* [Jasmine Introduction][jasmine-intro]
+
+[jasmine-intro]: https://jasmine.github.io/2.0/introduction.html
 
 And I took these notes.
 
